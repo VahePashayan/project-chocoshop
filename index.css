@@ -1,5 +1,52 @@
-.container {
+/* .container {
     margin: 0 auto;
     width: 80%;
     background-color: aquamarine;
+} */
+.logo {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+  margin-left:  500px;
+  text-align: center;
+  
+
+}
+.candy{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2px;
+}
+.flowers {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 200px;
+   
+
+}
+.history{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    margin-top: 2px;
+}
+.join{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    margin-top: 2px;
+    
 }
