@@ -4,6 +4,7 @@
 .logo {
    margin-left: 60%;
    display: inline-block;
+   overflow: hidden;
   
 
 }
@@ -26,7 +27,7 @@
     margin-left: 10%;
    
 
-}
+} 
 .history{
     height: 270px;
     width: 270px;
@@ -46,6 +47,24 @@
     margin-top: 20px;
     
 }
- body{
-    background-image: url('background.jpeg');
+body {
+    background-image: url('./background.jpeg');
  }
+
+ .candy:hover {
+     transform: scale(1.2);
+     transition: 0.4s;
+ }
+ .flowers:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+ .history:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+ .join:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
