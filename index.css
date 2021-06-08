@@ -3,12 +3,10 @@
     width: 80%;
     background-color: aquamarine;
 } */
-/*.logo {
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
-  margin-left:  500px;
-  text-align: center;
+.logo {
+   margin-left: 60%;
+   display: inline-block;
+   overflow: hidden;
   
 
 }*/
@@ -19,7 +17,7 @@
     text-align: center;
     display: inline-block;
     margin-top: 2px;
-    margin-left: 200px;
+    margin-left: 20%;
 }
 .flowers {
     height: 250px;
@@ -28,7 +26,7 @@
     text-align: center;
     display: inline-block;
     margin-top: 2px;
-    margin-left: 200px;
+    margin-left: ;
    
 
 } 
@@ -38,8 +36,8 @@
     border: 2px solid white;
     text-align: center;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 200px;
+   margin-left: 200px;
+    margin-top: 10%;
 }
 .join{
     height: 200px;
@@ -51,8 +49,6 @@
     margin-top: 2px; 
     
 }
-
-body {
-    background-image: url('Back.jpg');
-    background-size: cover;
-}
+ body{
+    background-image: url('background.jpeg');
+ }
