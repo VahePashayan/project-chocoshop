@@ -6,13 +6,20 @@ body {
     background-size: cover;
   }
 
+  .container {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
+
   .btn {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: burlywood;
+    background-color: darkslategray;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -21,10 +28,15 @@ body {
     border-radius: 5px;
   }
 
+  .test {
+      height: 330px;
+      width: 270px;
+  }
+
 .pakhlava {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    background-image: url(cookies/Paxlava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
         
 }
 
@@ -34,9 +46,10 @@ body {
 }
 
 .roulette {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;    
+    background-image: url(cookies/roulette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
 }
 
 .roulette:hover {
@@ -45,9 +58,10 @@ body {
 }
 
 .cookies {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;    
+    background-image: url(cookies/cookies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }
 
 .cookies:hover {
@@ -56,9 +70,10 @@ body {
 }
 
 .merenga {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;    
+    background-image: url(cookies/merenga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        
 }
 
 .merenga:hover {
