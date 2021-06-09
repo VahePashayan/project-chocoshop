@@ -28,7 +28,7 @@ body {
     border-radius: 5px;
   }
 
-  .test {
+  .inline {
       height: 330px;
       width: 270px;
   }
@@ -41,8 +41,9 @@ body {
 }
 
 .pakhlava:hover {
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 0.5s;
+    font: 0/0 a
 }
 
 .roulette {
@@ -53,7 +54,7 @@ body {
 }
 
 .roulette:hover {
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 0.5s;
 }
 
@@ -65,7 +66,7 @@ body {
 }
 
 .cookies:hover {
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 0.5s;
 }
 
@@ -77,6 +78,10 @@ body {
 }
 
 .merenga:hover {
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 0.5s;
 }
+
+
+
+
