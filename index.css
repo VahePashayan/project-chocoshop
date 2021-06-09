@@ -56,6 +56,8 @@
     transition: 0.4s;
 }
 
+
+
 .instagram{
     display: inline-block;
     height: 500px;
@@ -65,7 +67,7 @@
     display: inline-block;
     margin-top: 2px;
     margin-left: 20%;
-}
+}s
 .facebook{
     height: 500px;
     width: 250px;
