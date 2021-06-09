@@ -1,0 +1,31 @@
+/* body{
+    background: url(Edit.mp4) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+.content{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram{
+    width: 25%;
+
+}
+.facebook{
+    
+    width: 20%;
+}
+.instagram-logo{
+   
+    margin-top: 155px;
+    width: 33%;
+}
+.facebook-logo{
+    width: 28%;
+    margin-top: 120px;
+}
