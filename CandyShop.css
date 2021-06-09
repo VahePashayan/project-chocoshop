@@ -1,0 +1,67 @@
+body { 
+    background: url(candy_shop_back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: burlywood;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.pakhlava {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+        
+}
+
+.pakhlava:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.roulette {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+
+.roulette:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.cookies {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+
+.cookies:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.merenga {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+
+.merenga:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
