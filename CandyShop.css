@@ -1,0 +1,82 @@
+body { 
+    background: url(candy_shop_back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .container {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
+
+  .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: darkslategray;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .test {
+      height: 330px;
+      width: 270px;
+  }
+
+.pakhlava {
+    background-image: url(cookies/Paxlava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+.pakhlava:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.roulette {
+    background-image: url(cookies/roulette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.roulette:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.cookies {
+    background-image: url(cookies/cookies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.cookies:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.merenga {
+    background-image: url(cookies/merenga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+
+.merenga:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}

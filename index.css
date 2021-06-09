@@ -2,7 +2,8 @@
 .candy{
     height: 270px;
     width: 270px;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-width: 4px;
     text-align: center;
     display: inline-block;
     margin-top: 2px;
@@ -11,7 +12,8 @@
 .flowers {
     height: 270px;
     width: 270px;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-width: 4px;
     text-align: center;
     display: inline-block;
     margin-top: 2px;
@@ -22,7 +24,8 @@
 .history{
     height: 270px;
     width: 270px;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-width: 4px;
     text-align: center;
     display: inline-block;
    margin-left: 10%;
@@ -31,7 +34,8 @@
 .join{
     height: 270px;
     width: 270px;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-width: 4px;
     text-align: center;
     display: inline-block;
     margin-left: 10%;
@@ -59,6 +63,7 @@
     transform: scale(1.2);
     transition: 0.4s;
 }
+<<<<<<< HEAD
 .instagram{
     display: inline-block;
     height: 500px;
@@ -109,3 +114,6 @@
 .pages{
     margin-top: 8%;
 }
+=======
+
+>>>>>>> f4546bcabc7c2bdb03fba891c759b354383dc263
