@@ -56,7 +56,7 @@ body {
 }
 
 .pakhlava:hover {
-  transform: scale(1.4);
+  transform: scale(1.3);
   transition: 0.5s;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .roulette:hover {
-  transform: scale(1.4);
+  transform: scale(1.3);
   transition: 0.5s;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .cookies:hover {
-  transform: scale(1.4);
+  transform: scale(1.3);
   transition: 0.5s;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .merenga:hover {
-  transform: scale(1.4);
+  transform: scale(1.3);
   transition: 0.5s;
 }
 
