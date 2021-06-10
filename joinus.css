@@ -50,12 +50,15 @@
     /* background: rgba(0, 0, 0, 0.5); */
   color: rgba(0, 0, 0, 0.5);
   font-size:150px;
-
+  display: flex;
+    text-align: center;
+    justify-content: center;
 
 }
 .video{
     display: flex;
     text-align: center;
     justify-content: center;
+
 
 }
