@@ -50,22 +50,31 @@ body {
   transition: 0.5s;
 }
 
-.pakhlavaText {
+.pakhlavaHead {
   visibility: visible;
   font-variant: small-caps;
   color: whitesmoke;
 }
 
-.pakhlava:hover {
-  transform: scale(1.3);
-  transition: 0.5s;
+.pakhlavaText {
+  color: tomato;
+  visibility: hidden;
+  font-size: 20px;
 }
 
-.pakhlava:hover .pakhlavaText {
+.pakhlava:hover {
+  transform: scale(1.3);
+}
+
+.pakhlava:hover .pakhlavaHead {
   color: tomato;
 }
 
 .pakhlava:hover .orderButton {
+  visibility: visible;
+}
+
+.pakhlava:hover .pakhlavaText {
   visibility: visible;
 }
 
@@ -80,10 +89,16 @@ body {
   transition: 0.5s;
 }
 
-.rouletteText {
+.rouletteHead {
   visibility: visible;
   font-variant: small-caps;
   color: whitesmoke;
+}
+
+.rouletteText {
+  color: tomato;
+  visibility: hidden;
+  font-size: 20px;
 }
 
 .roulette:hover {
@@ -91,11 +106,15 @@ body {
   transition: 0.5s;
 }
 
-.roulette:hover .rouletteText {
+.roulette:hover .rouletteHead {
   color: tomato;
 }
 
 .roulette:hover .orderButton {
+  visibility: visible;
+}
+
+.roulette:hover .rouletteText {
   visibility: visible;
 }
 
@@ -110,10 +129,16 @@ body {
   transition: 0.5s;
 }
 
-.cookiesText {
+.cookiesHead {
   visibility: visible;
   font-variant: small-caps;
   color: whitesmoke;
+}
+
+.cookiesText {
+  color: tomato;
+  visibility: hidden;
+  font-size: 20px;
 }
 
 .cookies:hover {
@@ -121,11 +146,15 @@ body {
   transition: 0.5s;
 }
 
-.cookies:hover .cookiesText {
+.cookies:hover .cookiesHead {
   color: tomato;
 }
 
 .cookies:hover .orderButton {
+  visibility: visible;
+}
+
+.cookies:hover .cookiesText {
   visibility: visible;
 }
 
@@ -140,10 +169,16 @@ body {
   transition: 0.5s;
 }
 
-.merengaText {
+.merengaHead {
   visibility: visible;
   font-variant: small-caps;
   color: whitesmoke;
+}
+
+.merengaText {
+  color: tomato;
+  visibility: hidden;
+  font-size: 20px;
 }
 
 .merenga:hover {
@@ -151,70 +186,94 @@ body {
   transition: 0.5s;
 }
 
-.merenga:hover .merengaText {
-    color: tomato;
+.merenga:hover .merengaHead {
+  color: tomato;
 }
 
 .merenga:hover .orderButton {
   visibility: visible;
 }
 
-.bagel {
-    background-image: url(cookies/bagel.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-  }
-  
-  .bagelText {
-    visibility: visible;
-    font-variant: small-caps;
-    color: whitesmoke;
-  }
-  
-  .bagel:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-  }
-  
-  .bagel:hover .bagelText {
-    color: tomato;
-  }
-  
-  .bagel:hover .orderButton {
-    visibility: visible;
-  }
+.merenga:hover .merengaText {
+  visibility: visible;
+}
 
-  .pancakes {
-    background-image: url(cookies/pancake.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-  }
-  
-  .pancakesText {
+.bagel {
+  background-image: url(cookies/bagel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.bagelHead {
+  visibility: visible;
+  font-variant: small-caps;
+  color: whitesmoke;
+}
+
+.bagelText {
+  color: tomato;
+  visibility: hidden;
+  font-size: 20px;
+}
+
+.bagel:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.bagel:hover .bagelHead {
+  color: tomato;
+}
+
+.bagel:hover .orderButton {
+  visibility: visible;
+}
+
+.bagel:hover .bagelText {
+  visibility: visible;
+}
+
+.pancakes {
+  background-image: url(cookies/pancake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.pancakesHead {
+  visibility: visible;
+  font-variant: small-caps;
+  color: whitesmoke;
+}
+
+.pancakesText {
+  color: tomato;
+  visibility: hidden;
+  font-size: 20px;
+}
+
+.pancakes:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.pancakes:hover .bagelHead {
+  color: tomato;
+}
+
+.pancakes:hover .orderButton {
+  visibility: visible;
+}
+
+.pancakes:hover .pancakesText {
     visibility: visible;
-    font-variant: small-caps;
-    color: whitesmoke;
-  }
-  
-  .pancakes:hover {
-    transform: scale(1.3);
-    transition: 0.5s;
-  }
-  
-  .pancakes:hover .bagelText {
-    color: tomato;
-  }
-  
-  .pancakes:hover .orderButton {
-    visibility: visible;
-  }
+}
