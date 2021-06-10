@@ -1,87 +1,159 @@
-body { 
-    background: url(candy_shop_back.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  .container {
-    margin-top: 8%;
-    display: flex;
-    justify-content: space-around;
-    height: 20%;
+body {
+  background: url(candy_shop_back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-  .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: darkslategray;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+.container {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 20%;
+  text-align: center;
+}
 
-  .inline {
-      height: 330px;
-      width: 270px;
-  }
+.inline {
+  height: 450px;
+  width: 350px;
+}
+
+.orderButton {
+  visibility: hidden;
+  background-color: transparent;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.orderButton:hover {
+  color: tomato;
+  transition-duration: 0.5s;
+}
 
 .pakhlava {
-    background-image: url(cookies/Paxlava.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-        
+  background-image: url(cookies/Paxlava.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.pakhlavaText {
+  visibility: visible;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 .pakhlava:hover {
-    opacity: 0.5;
-    transition: 0.5s;
-    font: 0/0 a
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.pakhlava:hover .pakhlavaText {
+  color: tomato;
+}
+
+.pakhlava:hover .orderButton {
+  visibility: visible;
 }
 
 .roulette {
-    background-image: url(cookies/roulette.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-      
+  background-image: url(cookies/roulette.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.rouletteText {
+  visibility: visible;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 .roulette:hover {
-    opacity: 0.5;
-    transition: 0.5s;
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.roulette:hover .rouletteText {
+  color: tomato;
+}
+
+.roulette:hover .orderButton {
+  visibility: visible;
 }
 
 .cookies {
-    background-image: url(cookies/cookies.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  background-image: url(cookies/cookies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.cookiesText {
+  visibility: visible;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 .cookies:hover {
-    opacity: 0.5;
-    transition: 0.5s;
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.cookies:hover .cookiesText {
+  color: tomato;
+}
+
+.cookies:hover .orderButton {
+  visibility: visible;
 }
 
 .merenga {
-    background-image: url(cookies/merenga.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-        
+  background-image: url(cookies/merenga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.merengaText {
+  visibility: visible;
+  font-variant: small-caps;
+  color: whitesmoke;
 }
 
 .merenga:hover {
-    opacity: 0.5;
-    transition: 0.5s;
+  transform: scale(1.4);
+  transition: 0.5s;
 }
 
+.merenga:hover .merengaText {
+    color: tomato;
+}
 
-
-
+.merenga:hover .orderButton {
+  visibility: visible;
+}
