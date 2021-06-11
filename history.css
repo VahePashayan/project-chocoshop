@@ -20,3 +20,16 @@ body {
 .container{
     margin-top: 150px;
 }
+img{
+    display: inline-block;
+   margin-top: 4%;
+}
+.container{
+    background-color:rgba(120, 118, 114, 0.973);
+    /* display: inline-block; */
+    height: 90%;
+    width: 80%;
+ text-align: center;
+ justify-content: center;
+ margin-left: 14%;
+}
