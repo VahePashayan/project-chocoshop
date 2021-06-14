@@ -97,25 +97,21 @@ s .facebook {
   background-size: cover;
   object-fit: cover;
 }
-/* .background-color {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.514);
-} */
+
 .logo {
   display: flex;
   justify-content: center;
   top: -5px;
   color: white;
-  font-size: 60px;
+  font-size: 50%;
+  margin-right: 50%;
 
 }
 .pages {
   margin-top: 0;
 }
 body{
-  font-family: 'Cookie', cursive;
-font-family: 'Playball', cursive;
+  font-family: 'Staatliches', cursive;
 }
 
 .logo h1{
@@ -130,6 +126,8 @@ font-family: 'Playball', cursive;
   font-size: 17px;
   width: 20%;
   height: 20%;
+  height: 10%;
+  margin-top: 5%;
 }
 footer {
   width: 100%;
@@ -161,4 +159,13 @@ footer p {
   color: whitesmoke;
   margin-left: 30%;
   margin-top: 3%;
+}
+header {
+  display: flex;
+  justify-content: center;;
+}
+header h1 {
+  font-size: xxx-large;
+  color: whitesmoke;
+  /* font-family: fantasy; */
 }
