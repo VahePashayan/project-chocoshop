@@ -115,6 +115,7 @@ s .facebook {
   margin-top: 5%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 body{
   font-family: 'Staatliches', cursive;
@@ -202,4 +203,5 @@ form.example {
 .chatbox:hover {
   cursor: pointer;
   transform: scale(1.5);
+  transition-duration: 0.3s;
 }
