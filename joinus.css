@@ -64,3 +64,8 @@
 
 
 }
+@media screen and (max-width: 780px) {
+    .text {
+        font-size: 100px;
+    }
+}

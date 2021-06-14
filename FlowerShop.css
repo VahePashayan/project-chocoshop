@@ -5,3 +5,365 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  header {
+    display: flex;
+    justify-content: center;;
+  }
+  
+  header h1 {
+    font-size: xxx-large;
+    color: whitesmoke;
+    /* font-family: fantasy; */
+  }
+  
+  .container {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    height: 20%;
+    text-align: center;
+  
+  }
+  
+  footer {
+      background-color: teal;
+  }
+  
+  .inline {
+    height: 450px;
+    width: 350px;
+  }
+  
+  .orderButton {
+    visibility: hidden;
+    background-color: transparent;
+    margin: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .orderButton:hover {
+    color: tomato;
+    transition-duration: 0.5s;
+  }
+  
+  .pakhlava {
+    background-image: url(flowers/infinity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+  }
+  
+  .pakhlavaHead {
+    visibility: visible;
+    font-variant: small-caps;
+    color: whitesmoke;
+  }
+  
+  .pakhlavaText {
+    color: tomato;
+    visibility: hidden;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  .pakhlava:hover {
+    transform: scale(1.3);
+  }
+  
+  .pakhlava:hover .pakhlavaHead {
+    color: tomato;
+  }
+  
+  .pakhlava:hover .orderButton {
+    visibility: visible;
+  }
+  
+  .pakhlava:hover .pakhlavaText {
+    visibility: visible;
+  }
+  
+  .roulette {
+    background-image: url(flowers/delicacy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+  }
+  
+  .rouletteHead {
+    visibility: visible;
+    font-variant: small-caps;
+    color: whitesmoke;
+  }
+  
+  .rouletteText {
+    color: tomato;
+    visibility: hidden;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    display:flex;
+    text-align: center;
+  }
+  
+  .roulette:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+  
+  .roulette:hover .rouletteHead {
+    color: tomato;
+  }
+  
+  .roulette:hover .orderButton {
+    visibility: visible;
+  }
+  
+  .roulette:hover .rouletteText {
+    visibility: visible;
+  }
+  
+  .cookies {
+    background-image: url(flowers/mildness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+  }
+  
+  .cookiesHead {
+    visibility: visible;
+    font-variant: small-caps;
+    color: whitesmoke;
+  }
+  
+  .cookiesText {
+    color: tomato;
+    visibility: hidden;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5)
+  }
+  
+  .cookies:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+  
+  .cookies:hover .cookiesHead {
+    color: tomato;
+  }
+  
+  .cookies:hover .orderButton {
+    visibility: visible;
+  }
+  
+  .cookies:hover .cookiesText {
+    visibility: visible;
+  }
+  
+  .merenga {
+    background-image: url(flowers/liking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+  }
+  
+  .merengaHead {
+    visibility: visible;
+    font-variant: small-caps;
+    color: whitesmoke;
+  }
+  
+  .merengaText {
+    color: tomato;
+    visibility: hidden;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5)
+  }
+  
+  .merenga:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+  
+  .merenga:hover .merengaHead {
+    color: tomato;
+  }
+  
+  .merenga:hover .orderButton {
+    visibility: visible;
+  }
+  
+  .merenga:hover .merengaText {
+    visibility: visible;
+  }
+  
+  .bagel {
+    background-image: url(flowers/mercyful.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+  }
+  
+  .bagelHead {
+    visibility: visible;
+    font-variant: small-caps;
+    color: whitesmoke;
+  }
+  
+  .bagelText {
+    color: tomato;
+    visibility: hidden;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5)
+  }
+  
+  .bagel:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+  
+  .bagel:hover .bagelHead {
+    color: tomato;
+  }
+  
+  .bagel:hover .orderButton {
+    visibility: visible;
+  }
+  
+  .bagel:hover .bagelText {
+    visibility: visible;
+  }
+  
+  .pancakes {
+    background-image: url(flowers/glorious.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 400px;
+  }
+  
+  .pancakesHead {
+    visibility: visible;
+    font-variant: small-caps;
+    color: whitesmoke;
+  }
+  
+  .pancakesText {
+    color: tomato;
+    visibility: hidden;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.5)
+  }
+  
+  .pancakes:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+  }
+  
+  .pancakes:hover .pancakesHead {
+    color: tomato;
+  }
+  
+  .pancakes:hover .orderButton {
+    visibility: visible;
+  }
+  
+  .pancakes:hover .pancakesText {
+      visibility: visible;
+  }
+  
+  footer {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  footer nav a {
+    color: whitesmoke;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  
+  footer nav {
+    margin-top: 3%;
+  }
+  
+  footer nav a:hover {
+    border-bottom: 1px solid tomato;
+    color: tomato;
+  }
+  
+  footer .social {
+    margin-top: 3%;
+  }
+  
+  footer p {
+    font-size: small;
+    font-style: italic;
+    width: 40%;
+    color: whitesmoke;
+    margin-left: 30%;
+    margin-top: 3%;
+  }
+  body{
+    font-family: 'Staatliches', cursive;
+    font-size: xx-large;
+  }
