@@ -66,6 +66,25 @@
 }
 @media screen and (max-width: 780px) {
     .text {
-        font-size: 100px;
+        display: none;
     }
+}
+@media (max-width:760px){
+    .content{
+       display: block;
+    }
+    .content .instagram-logo{
+        display: none;
+    }
+    .content .facebook-logo{
+        display: none;
+    }
+    .video {
+        width: 100%;
+    }
+
+    .content .facebook {
+        text-align: center;
+    }
+    
 }
