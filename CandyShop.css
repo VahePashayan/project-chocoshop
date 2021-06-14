@@ -6,6 +6,17 @@ body {
   background-size: cover;
 }
 
+header {
+  display: flex;
+  justify-content: center;;
+}
+
+header h1 {
+  font-size: xxx-large;
+  color: whitesmoke;
+  font-family: fantasy;
+}
+
 .container {
   margin-top: 5%;
   display: flex;
@@ -305,3 +316,41 @@ footer {
 .pancakes:hover .pancakesText {
     visibility: visible;
 }
+
+footer {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+footer nav a {
+  color: whitesmoke;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+footer nav {
+  margin-top: 3%;
+}
+
+footer nav a:hover {
+  border-bottom: 1px solid tomato;
+  color: tomato;
+}
+
+footer .social {
+  margin-top: 3%;
+}
+
+footer p {
+  font-size: small;
+  font-style: italic;
+  width: 40%;
+  color: whitesmoke;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+
