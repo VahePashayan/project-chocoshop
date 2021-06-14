@@ -1,54 +1,58 @@
 header {
+  margin-top: 5%;
+  width: auto;
+}
+
+header h1 {
+  font-size: 100px;
+  color: tomato;
   display: flex;
   justify-content: center;
 }
-header h1 {
-  font-size: xxx-large;
-  color: whitesmoke;
-}
+
 
 .candy {
-  height: 270px;
-  width: 270px;
+  height: 278px;
+  width: 278px;
   border: 1px solid white;
   border-width: 4px;
   text-align: center;
   display: inline-block;
-  margin-top: 2px;
-  margin-left: 10%;
+  /* margin-top: 2px;
+  margin-left: 10%; */
   transition: 0.4s;
 }
 .flowers {
-  height: 270px;
-  width: 270px;
+  height: 278px;
+  width: 278px;
   border: 1px solid white;
   border-width: 4px;
   text-align: center;
   display: inline-block;
-  margin-top: 2px;
-  margin-left: 10%;
+  /* margin-top: 2px;
+  margin-left: 10%; */
   transition: 0.4s;
 }
 .history {
-  height: 270px;
-  width: 270px;
+  height: 278px;
+  width: 278px;
   border: 1px solid white;
   border-width: 4px;
   text-align: center;
   display: inline-block;
-  margin-left: 10%;
-  margin-top: 20px;
+  /* margin-left: 10%;
+  margin-top: 20px; */
   transition: 0.4s;
 }
 .join {
-  height: 270px;
-  width: 270px;
+  height: 278px;
+  width: 278px;
   border: 1px solid white;
   border-width: 4px;
   text-align: center;
   display: inline-block;
-  margin-left: 10%;
-  margin-top: 20px;
+  /* margin-left: 10%;
+  margin-top: 20px; */
   transition: 0.4s;
 }
 .candy:hover {
@@ -107,37 +111,15 @@ s .facebook {
   object-fit: cover;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  top: -5px;
-  color: white;
-  font-size: 50%;
-  margin-right: 50%;
-
-}
 .pages {
-  margin-top: 0;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
 }
 body{
   font-family: 'Staatliches', cursive;
 }
 
-.logo h1{
-  display: inline-block;
-}
-.logo input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 15%;
-  margin-right: 16px;
-  font-size: 17px;
-  width: 20%;
-  height: 20%;
-  height: 10%;
-  margin-top: 5%;
-}
 footer {
   width: 100%;
   height: auto;
@@ -168,4 +150,56 @@ footer p {
   color: whitesmoke;
   margin-left: 30%;
   margin-top: 3%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: tomato;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: brown;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.example {
+  width: 50%;
+  display: flex;
+  margin-left: 25%;
+}
+
+.chatbox {
+  position: fixed;
+    margin-top: 0%;
+    margin-left: 90%;
+}
+
+.chatbox:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
