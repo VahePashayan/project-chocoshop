@@ -103,17 +103,62 @@ s .facebook {
   background-color: rgba(255, 255, 255, 0.514);
 } */
 .logo {
-  position: absolute;
-  right: 1%;
-  top: 20px;
+  display: flex;
+  justify-content: center;
+  top: -5px;
   color: white;
   font-size: 60px;
 
 }
 .pages {
-  margin-top: 15%;
+  margin-top: 0;
 }
 body{
   font-family: 'Cookie', cursive;
 font-family: 'Playball', cursive;
+}
+
+.logo h1{
+  display: inline-block;
+}
+.logo input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 15%;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 20%;
+  height: 20%;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+footer nav a {
+  color: whitesmoke;
+  font-size: x-large;
+  text-decoration: none;
+}
+footer nav {
+  margin-top: 3%;
+}
+footer nav a:hover {
+  border-bottom: 1px solid tomato;
+  color: tomato;
+}
+footer .social {
+  margin-top: 3%;
+}
+footer p {
+  font-size: small;
+  font-style: italic;
+  width: 40%;
+  color: whitesmoke;
+  margin-left: 30%;
+  margin-top: 3%;
 }

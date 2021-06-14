@@ -183,10 +183,38 @@ body{
 
        opacity: 0;
 }
- .ii p{
-    animation: animo1 2s  18.5s linear  forwards  ;
-  
 
+
+ .ii>p>a{
+    animation: animo2 2s  18.5s linear  forwards  ;
     opacity: 0;
- }`
- 
+    text-decoration: none;
+ }
+
+ @keyframes animo2 {
+    0%{
+        opacity: 1;
+        font-size: 15px;
+    }
+    20%{
+       
+        font-size: 25px;
+    }
+    40%{
+        font-size: 35px;
+    }
+    60%{
+        font-size: 45px;
+    }
+    80%{
+        font-size: 55px;
+
+    }
+    100%{
+    font-size: 65px;
+    opacity: 1;
+    
+    color:rgb(100, 0, 0);
+    }
+    
+}
