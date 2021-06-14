@@ -10,26 +10,17 @@ body {
     display: inline-block;
 }
 .text{
-    
-    /* border: solid 1px black; */
-    background-color:rgba(120, 118, 114, 0.973);
+    background-color: transparent;
     display: inline-block;
     height: 60%;
     width: 60%;
+    color: white;
+    font-size: 20px;
 }
-.container{
-    margin-top: 150px;
-}
-img{
-    display: inline-block;
-   margin-top: 4%;
-}
-.container{
-    background-color:rgba(120, 118, 114, 0.973);
-    /* display: inline-block; */
-    height: 90%;
-    width: 80%;
- text-align: center;
- justify-content: center;
- margin-left: 14%;
+
+.container {
+    margin-top: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }

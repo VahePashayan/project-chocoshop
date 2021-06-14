@@ -1,0 +1,192 @@
+body{
+    background-image: url("mainPageBackground.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+ .container{
+     width: 600px;
+     height: 200px;
+     position: relative;
+     margin:300px auto;
+     background-color: teal;
+     
+ }
+ .a{
+    
+ text-align: center;
+ line-height: 100px;
+
+
+
+    
+ }
+ 
+ .aa{
+     width: 100%;
+     height: 100%;
+     /* background-color:rgba(190, 111, 111, 0.233); */
+    position: absolute;
+    color: #ffffff;
+    z-index: 90;
+    
+    
+    
+
+    
+ }
+ .aa p{
+    animation: animo1 2s  1s linear forwards ;
+    
+    opacity: 0;
+ }
+
+
+ .b{
+    
+    text-align: center;
+    line-height: 100px;
+   
+   
+   
+       
+    }
+    
+    .bb{
+        width: 100%;
+        height: 100%;
+        /* background-color:rgba(190, 111, 111, 0.233); */
+       position: absolute;
+       color: #ffffff;
+       z-index: 80;
+       font-size: 40px;
+       
+       
+       
+   
+       
+    }
+    .bb p{
+       animation: animo1 2s  3.5s linear forwards ;
+  
+
+       opacity: 0;
+    }
+
+
+
+
+
+
+@keyframes animo1 {
+    0%{
+        opacity: 1;
+        font-size: 15px;
+    }
+    20%{
+       
+        font-size: 25px;
+    }
+    40%{
+        font-size: 35px;
+    }
+    60%{
+        font-size: 45px;
+    }
+    80%{
+        font-size: 55px;
+
+    }
+    100%{
+    font-size: 65px;
+    opacity: 0;
+    
+    color:rgb(100, 0, 0);
+    }
+    
+}
+
+
+body{
+    font-family: 'Staatliches', cursive;
+}
+.c {
+    text-align: center;
+    line-height: 100px;
+}
+.cc{
+    width: 100%;
+        height: 100%;
+        /* background-color:rgba(190, 111, 111, 0.233); */
+       position: absolute;
+       color: #ffffff;
+       z-index: 80;
+       font-size: 40px;
+}
+.cc p{
+    animation: animo1 2s  6s linear forwards ;
+  
+
+       opacity: 0;
+}
+
+.e{
+    text-align: center;
+    line-height: 100px;
+}
+.ee{
+    width: 100%;
+        height: 100%;
+       position: absolute;
+       color: #ffffff;
+       z-index: 80;
+       font-size: 40px;
+}
+
+.ee p{
+    animation: animo1 2s  8.5s linear forwards ;
+  
+
+       opacity: 0;
+}
+.f, .g, .h, .i{ 
+    text-align: center;
+    line-height: 100px;
+
+}
+.ff, .gg, .hh, .ii{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+   color: #ffffff;
+   z-index: 80;
+   font-size: 40px;
+}
+
+.ff p{
+    animation: animo1 2s  11s linear forwards ;
+  
+
+       opacity: 0;
+}
+
+.gg p{
+    animation: animo1 2s  13.5s linear forwards ;
+  
+
+       opacity: 0;
+}
+
+.hh p{
+    animation: animo1 2s  16s linear forwards ;
+  
+
+       opacity: 0;
+}
+ .ii p{
+    animation: animo1 2s  18.5s linear  forwards  ;
+  
+
+    opacity: 0;
+ }`
+ 
