@@ -9,7 +9,7 @@ body{
      height: 200px;
      position: relative;
      margin:300px auto;
-     background-color: teal;
+     background-color:transparent;
      
  }
  .a{
@@ -185,7 +185,7 @@ body{
 }
 
 
- .ii>p>a{
+ .ii>p{
     animation: animo2 2s  18.5s linear  forwards  ;
     opacity: 0;
     text-decoration: none;
@@ -208,11 +208,11 @@ body{
     }
     80%{
         font-size: 55px;
-
+        opacity: 1;
     }
     100%{
     font-size: 65px;
-    opacity: 1;
+    opacity: 0;
     
     color:rgb(100, 0, 0);
     }

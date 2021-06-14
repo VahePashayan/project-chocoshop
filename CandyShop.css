@@ -7,14 +7,15 @@ body {
 }
 
 header {
+
   display: flex;
-  justify-content: center;;
+  justify-content: center;
 }
 
 header h1 {
   font-size: xxx-large;
   color: whitesmoke;
-  font-family: fantasy;
+  /* font-family: fantasy; */
 }
 
 .container {
