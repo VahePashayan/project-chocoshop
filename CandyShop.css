@@ -362,3 +362,41 @@ footer p {
   margin-top: 3%;
 }
 
+.chatbox {
+  position: fixed;
+  margin-top: 16%;
+  margin-left: 80%;
+}
+
+.chatbox:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+
+.chatForm {
+  visibility: hidden;
+}
+
+input[type="name"], input[type="e-mail"], input[type="text"] {
+  width: 80%;
+  font-size: medium;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  border: none;
+  background-color: tomato;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  font-size: large;
+  background-color: tomato;
+  color: black;
+  border-radius: 4px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
