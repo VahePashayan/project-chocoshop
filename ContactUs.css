@@ -1,0 +1,100 @@
+body {
+    background: url(ContactUsBack.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header h1 {
+  font-size: xxx-large;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+header h2 {
+  font-size: x-large;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+    background-color: darkslategray;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.name, .email{
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+.message {
+    margin-top: 10%;
+    display: flex;
+    justify-content: start;
+}
+
+#mess {
+    width: 100%;
+}
+
+.btn {
+    width: 20%;
+    height: 50%;
+    margin-top: 10%;
+    cursor: pointer;
+    border-color: whitesmoke;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.btnPlace {
+    text-align: center;
+    height: 30%;
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  footer nav a {
+    color: whitesmoke;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  
+  footer nav {
+    margin-top: 3%;
+  }
+  
+  footer nav a:hover {
+    border-bottom: 1px solid tomato;
+    color: tomato;
+  }
+  
+  footer .social {
+    margin-top: 3%;
+  }
+  
+  footer p {
+    font-size: small;
+    font-style: italic;
+    width: 40%;
+    color: whitesmoke;
+    margin-left: 30%;
+    margin-top: 3%;
+  }

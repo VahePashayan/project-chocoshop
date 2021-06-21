@@ -367,3 +367,15 @@ body {
     font-family: 'Staatliches', cursive;
     font-size: xx-large;
   }
+
+  .chatbox {
+    position: fixed;
+    margin-top: 22%;
+    margin-left: 85%;
+  }
+  
+  .chatbox:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+  }
