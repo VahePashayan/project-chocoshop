@@ -49,7 +49,7 @@ label {
 .btn {
     width: 20%;
     height: 50%;
-    margin-top: 10%;
+    margin-top: 15%;
     cursor: pointer;
     border-color: whitesmoke;
     background-color: darkslategray;
@@ -59,6 +59,10 @@ label {
 .btnPlace {
     text-align: center;
     height: 30%;
+}
+
+.container {
+    background-color: darkred;
 }
 
 
@@ -98,3 +102,5 @@ footer {
     margin-left: 30%;
     margin-top: 3%;
   }
+
+  
