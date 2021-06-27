@@ -23,7 +23,6 @@ header h2 {
 label {
     background-color: darkslategray;
     padding: 5px;
-    border-radius: 2px;
 }
 
 .container {
@@ -34,6 +33,7 @@ label {
 .name, .email{
     display: inline-flex;
     margin-top: 5%;
+    background-color ;
 }
 
 .message {

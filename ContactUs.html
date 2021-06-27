@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="ContactUs.css" />
     <link rel="shortcut icon" type="image/jpg" href="favicon.jpg" />
+    <script defer src="index.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -16,28 +17,18 @@
     </header>
     <!-- HEADER -->
     <div class="container">
-      <form>
+      <form id="form"> 
         <div class="name">
           <label for="name">Your name:</label>
           <input type="text" id="name" name="name" placeholder="Type here..." />
         </div>
         <div class="email">
           <label for="email">Email address:</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Type here..."
-          />
+          <input type="text" id="email" name="email" placeholder="Type here..." />
         </div>
         <div class="message">
           <label for="mess">Message:</label>
-          <textarea
-            type="text"
-            id="mess"
-            name="mess"
-            placeholder="Type here..."
-          ></textarea>
+          <textarea type="text" id="mess" name="mess" placeholder="Type here..."></textarea>
         </div>
         <div class="btnPlace">
           <input class="btn" type="button" value="Send" />
